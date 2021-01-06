@@ -1,0 +1,1 @@
+# impact_of_convolutions_on_genomic_prediction
