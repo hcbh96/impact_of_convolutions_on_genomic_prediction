@@ -1,1 +1,2 @@
-# impact_of_convolutions_on_genomic_prediction
+# MissingHeritability
+Implemention of methods in Nature paper "Finding the source of missing heritability"
