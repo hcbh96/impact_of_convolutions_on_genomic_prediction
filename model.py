@@ -6,7 +6,7 @@ import pandas as pd
 SEED = 500; rand.seed(SEED)
 mu = 0
 sigma = 1
-length = 100 # Number of params affecting model 50,000 SNP chip
+length = 1000 # Number of params affecting model 50,000 SNP chip
 
 
 # Create linear model with parameter weights drawn randomly from a gaussian distribution

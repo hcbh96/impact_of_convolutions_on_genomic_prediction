@@ -9,6 +9,7 @@ convoluted_data = pd.read_csv('convoluted_data.csv', index_col=0)
 actual_model = pd.read_csv('model.csv', index_col=0)
 score_dtfm = pd.DataFrame()
 
+
 """
 Evaluate dataset, gets a filename, and reporter dataframes as input and outputs null but updated the passed in arrays
 """
@@ -42,6 +43,8 @@ def evaluate_dataset(dataset_name, score_dtfm=score_dtfm, actual_model=actual_mo
 
 evaluate_dataset('simulated_data.csv', score_dtfm=score_dtfm)
 evaluate_dataset('convoluted_data.csv', score_dtfm=score_dtfm)
+evaluate_dataset('simulated_epistatic_data.csv', score_dtfm=score_dtfm)
+evaluate_dataset('convoluted_epistatic_data.csv', score_dtfm=score_dtfm)
 score_dtfm.to_csv('score_dataset.csv')
 
 
